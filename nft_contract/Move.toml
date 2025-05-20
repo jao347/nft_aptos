@@ -1,0 +1,15 @@
+[package]
+name = "nft_contract"
+version = "1.0.0"
+authors = []
+
+[addresses]
+mint_nft="642551b0c74dd23fb5a00acaf4798b3f701b255b9fadb072fd0e63575be70ba2"
+
+[dev-addresses]
+
+[dependencies]
+AptosFramework = {git = "https://github.com/aptos-labs/aptos-framework.git", rev = "mainnet", subdir = "aptos-framework"}
+AptosTokenObjects = {git = "https://github.com/aptos-labs/aptos-framework.git", rev = "mainnet", subdir = "aptos-token-objects"}
+
+[dev-dependencies]
